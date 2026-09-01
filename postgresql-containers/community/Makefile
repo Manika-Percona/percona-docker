@@ -19,9 +19,9 @@ BUILD_ARGS_UBI8 = \
 # by the operator CR (main-ppg19-postgres / main-pgbackrest19 / main-pgbouncer19).
 POSTGRES19_IMAGE     ?= $(REGISTRY):$(TAG)-postgres19-community
 POSTGRES19_PPG_IMAGE ?= $(REGISTRY):$(TAG)-ppg19-postgres
-PGBACKREST19_IMAGE   ?= $(REGISTRY):$(TAG)-pgbackrest19
-PGBOUNCER19_IMAGE    ?= $(REGISTRY):$(TAG)-pgbouncer19
-UPGRADE19_IMAGE      ?= $(REGISTRY):$(TAG)-upgrade19
+PGBACKREST19_IMAGE   ?= $(REGISTRY):$(TAG)-pgbackrest19-community
+PGBOUNCER19_IMAGE    ?= $(REGISTRY):$(TAG)-pgbouncer19-community
+UPGRADE19_IMAGE      ?= $(REGISTRY):$(TAG)-upgrade19-community
 POSTGRES18_IMAGE ?= $(REGISTRY):$(TAG)-postgres18-community
 POSTGRES17_IMAGE ?= $(REGISTRY):$(TAG)-postgres17-community
 POSTGRES16_IMAGE ?= $(REGISTRY):$(TAG)-postgres16-community
